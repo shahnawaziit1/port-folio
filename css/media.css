@@ -1,0 +1,46 @@
+@media(max-width: 1199px) {
+    .aside {
+        left: -270px;
+    }
+    .main-content {
+        padding-left: 0;
+    }
+    .container {
+        width: 90%;
+    }
+}
+
+@media(max-width: 991px){
+    .home .home-info {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .home .home-img {
+        display: none;
+    }
+    
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .section .service-item {
+        flex: 0 0 50%;
+        width: 50%;
+    }
+    .about .about-content .skills,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    
+
+}
+
+@media(max-width: 768px) {
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .skills,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}
